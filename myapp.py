@@ -6,9 +6,9 @@ def index():
     return render_template('index.html')
 
 #step2
-@app.route('/whereami')
-def whereami():
-    return 'Ghana'
+@app.route('/service')
+def service():
+    return render_template('service.html')
 
 #step3
 @app.route('/foo')
