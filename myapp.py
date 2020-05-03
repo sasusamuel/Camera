@@ -6,18 +6,14 @@ def index():
     return render_template('index.html')
 
 #step2
-@app.route('/about')
-def about_us():
-    return render_template('about_us.html')
-
-@app.route('servic')
-def abouservice():
-    return render_template('service.html')
+@app.route('/whereami')
+def whereami():
+    return 'Ghana'
 
 #step3
-@app.route('/contact_us')
+@app.route('/foo')
 def foo(name):
-    return render_template('contact_us.html')
+    return render_template('foo.html')
 
 
 
