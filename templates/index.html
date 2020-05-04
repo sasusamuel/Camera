@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no">
     <title> ELMAX | SMART SECURITY</title>
 
-    <link rel="shortcut icon" href="assets/images/fav.jpg">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
-    <link rel="stylesheet" href="assets/plugins/image-hover/imagehover.min.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="{{url_for('static', filename='images/fav.jpg')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/fontawsom-all.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='plugins/image-hover/imagehover.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/animate.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}" />
 </head>
 
 <body>
@@ -45,8 +45,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-12 logo">
-                        <img class="log" src="assets/images/logo.png" alt="">
-                        <img class="log-gray" src="assets/images/logo-gray.png" alt="">
+                        <img class="log" src="{{url_for('static', filename='images/logo.png')}}" alt="">
+                        <img class="log-gray" src="{{url_for('static', filename='images/logo-gray.png')}}" alt="">
                         <a data-toggle="collapse" data-target="#nav-head" href="#nav-head"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
                     </div>
                     <div id="nav-head" class="col-md-9 nav-div d-none d-md-block">
@@ -125,9 +125,9 @@
                 <div class="col-md-4">
                     <div class="serv-det">
                         <figure class="imghvr-fade">
-                            <img src="assets/images/services/s1.jpg" alt="">
+                            <img src="{{url_for('static', filename='images/services/s1.jpg')}}" alt="">
                             <figcaption>
-                                 Protect your assets with our professional business CCTV systems.Specialise in creating solutions to suit your needs-perimeter CCTV cameras, or a more integrated solution that positions cameras in strategic positions,that covers every angle required.
+                                 Protect your static with our professional business CCTV systems.Specialise in creating solutions to suit your needs-perimeter CCTV cameras, or a more integrated solution that positions cameras in strategic positions,that covers every angle required.
                             </figcaption>
                         </figure>
                         <h6>CCTV Installation</h6>
@@ -136,7 +136,7 @@
                 <div class="col-md-4">
                     <div class="serv-det">
                         <figure class="imghvr-fade">
-                            <img src="assets/images/services/s2.jpg" alt="">
+                            <img src="{{url_for('static', filename='images/services/s2.jpg')}}" alt="">
                             <figcaption>
                                 Our systems range from basic voice and video entry phones to PIN and swipe-card operated locks.Making a living at home a very comfortable one. Just say and havr work done.
                             </figcaption>
@@ -147,7 +147,7 @@
                 <div class="col-md-4">
                     <div class="serv-det">
                         <figure class="imghvr-fade">
-                            <img src="assets/images/services/s3.jpg" alt="">
+                            <img src="{{url_for('static', filename='images/services/s3.jpg')}}" alt="">
                             <figcaption>
                                 We provide top class securoty to home and offices to watch over people, operations and propertis 24/7.
                             </figcaption>
@@ -164,7 +164,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <img src="assets/images/about.jpg" alt="">
+                    <img src="{{url_for('static', filename='images/about.jpg')}}" alt="">
                 </div>
                 <div class="col-lg-6 col-md-12 txtr">
                     <h4>Why choos security with <br>
@@ -228,7 +228,7 @@
             <div class="test-row row">
                 <div class="col-md-4">
                     <div class="test-key">
-                        <img src="assets/images/testimonial/member-01.jpg" alt="">
+                        <img src="{{url_for('static', filename='images/testimonial/member-01.jpg')}}" alt="">
 
                         <h5>ELIJAH SASU ASIAMAH</h5>
                         <a href="">Manager</a>
@@ -238,7 +238,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="test-key">
-                        <img src="assets/images/testimonial/member-02.jpg" alt="">
+                        <img src="{{url_for('static', filename='images/testimonial/member-02.jpg')}}" alt="">
 
                         <h5>TADIO SASU ANIM</h5>
                         <a href="">Developer</a>
@@ -248,7 +248,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="test-key">
-                        <img src="assets/images/testimonial/member-03.jpg" alt="">
+                        <img src="{{url_for('static', filename='images/testimonial/member-03.jpg')}}" alt="">
 
                         <h5>EBEN SASU</h5>
                         <a href="">Manager</a>
@@ -265,28 +265,28 @@
         <div class="container">
             <div class="row client-row">
                 <div class="col-md-3 col-6 br bb clinent-cover">
-                    <img src="assets/images/partner/l1.png" alt="">
+                    <img src="{{url_for('static', filename='images/partner/l1.png')}}" alt="">
                 </div>
                 <div class="col-md-3 col-6 br bb clinent-cover">
-                    <img src="assets/images/partner/l2.png" alt="">
+                    <img src="{{url_for('static', filename='images/partner/l2.png')}}" alt="">
                 </div>
                 <div class="col-md-3 col-6 br bb clinent-cover">
-                    <img src="assets/images/partner/l3.png" alt="">
+                    <img src="{{url_for('static', filename='images/partner/l3.png')}}" alt="">
                 </div>
                 <div class="col-md-3 col-6 bb clinent-cover">
-                    <img src="assets/images/partner/l5.png" alt="">
+                    <img src="{{url_for('static', filename='images/partner/l5.png')}}" alt="">
                 </div>
                 <div class="col-md-3 col-6 br clinent-cover">
-                    <img src="assets/images/partner/l5.png" alt="">
+                    <img src="{{url_for('static', filename='images/partner/l5.png')}}" alt="">
                 </div>
                 <div class="col-md-3 col-6 br clinent-cover">
-                     <img src="assets/images/partner/l3.png" alt="">
+                     <img src="{{url_for('static', filename='images/partner/l3.png')}}" alt="">
                 </div>
                 <div class="col-md-3 col-6 br clinent-cover">
-                     <img src="assets/images/partner/l2.png" alt="">
+                     <img src="{{url_for('static', filename='images/partner/l2.png')}}" alt="">
                 </div>
                 <div class="col-md-3 col-6 clinent-cover">
-                    <img src="assets/images/partner/l1.png" alt="">
+                    <img src="{{url_for('static', filename='images/partner/l1.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -304,7 +304,7 @@
                     <div class="col-md-6">
                         <div class="news-card">
                             <div class="image">
-                                <img src="assets/images/blog/blog_01.jpg" alt="">
+                                <img src="static/images/blog/blog_01.jpg" alt="">
                             </div>
                             <div class="detail">
                                 <h3>Latest News about Elmax | Smart Security</h3>
@@ -320,7 +320,7 @@
                     <div class="col-md-6">
                         <div class="news-card">
                             <div class="image">
-                                <img src="assets/images/blog/blog_02.jpg" alt="">
+                                <img src="static/images/blog/blog_02.jpg" alt="">
                             </div>
                             <div class="detail">
                                 <h3>Apple Launch its New Phone</h3>
@@ -336,7 +336,7 @@
                     <div class="col-md-6">
                         <div class="news-card">
                             <div class="image">
-                                <img src="assets/images/blog/blog_03.jpg" alt="">
+                                <img src="static/images/blog/blog_03.jpg" alt="">
                             </div>
                             <div class="detail">
                                 <h3>About Windows 10 Update</h3>
@@ -352,7 +352,7 @@
                     <div class="col-md-6">
                         <div class="news-card">
                             <div class="image">
-                                <img src="assets/images/blog/blog_04.jpg" alt="">
+                                <img src="static/images/blog/blog_04.jpg" alt="">
                             </div>
                             <div class="detail">
                                 <h3>Latest News about Elmax | Smart Security</h3>
@@ -425,12 +425,12 @@
 
 
 </body>
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
-<script src="assets/plugins/scroll-nav/js/jquery.easing.min.js"></script>
-<script src="assets/js/script.js"></script>
+<script src="{{url_for('static', filename='js/jquery-3.2.1.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/popper.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/scroll-fixed/jquery-scrolltofixed-min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/scroll-nav/js/jquery.easing.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/script.js')}}"></script>
 
 
 </html>
