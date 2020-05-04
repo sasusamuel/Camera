@@ -7,7 +7,7 @@ def index():
 
 #step2
 @app.route('/service')
-def service():
+def service(name):
     return render_template('service.html')
 
 #step3
