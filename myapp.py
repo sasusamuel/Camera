@@ -6,7 +6,7 @@ def index():
     return render_template('index.html')
 
 #step2
-@app.route('/service')
+@app.route('/index/service')
 def service():
     return render_template('service.html')
 
